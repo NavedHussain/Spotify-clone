@@ -69,12 +69,15 @@ nav ul li {
 }
 
 .icons {
+  display: flex;
+  gap: 15px;
   margin-top: 14px;
 
 }
 
 .icons i {
   cursor: pointer;
+  font-size: 1.25rem;
 }
 
 #myProgressBar {
@@ -110,10 +113,14 @@ nav ul li {
    
 }
 
-.songItem img {
+
+
+.container ul li .songimg {
+  height: 43px;
   width: 43px;
   /* margin: 0 23px; */
   border-radius: 34px;
+  background-image: url('./images/cover.jpg');
   /* height: 100%; */
 }
 
